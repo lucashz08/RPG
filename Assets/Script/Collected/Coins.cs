@@ -7,6 +7,8 @@ public class Coins : MonoBehaviour {
 
     private _GameController gControl;
 
+    int incrementCoin;
+    int maxCoin;
     // Use this for initialization
     void Start () {
 
@@ -21,7 +23,20 @@ public class Coins : MonoBehaviour {
 
     public void getCoin()
     {
-        gControl.gold = gControl.gold + 1;
-        Destroy(this.gameObject);
+        maxCoin = 2000000000;
+
+        incrementCoin = 1;
+
+
+        if ((gControl.gold + incrementCoin) < maxCoin)
+        {
+            gControl.gold = gControl.gold + incrementCoin;
+            Destroy(this.gameObject);
+        }
+        else
+        {
+            gControl.gold = maxCoin;
+            Destroy(this.gameObject);
+        }
     }
 }
