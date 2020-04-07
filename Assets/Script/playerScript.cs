@@ -35,9 +35,15 @@ public class playerScript : MonoBehaviour
 
     public GameObject[] guns;
 
+    // Life
+
+    public float maxLife, nowLife;  // vida maxima e vida atual do player
+
     // Use this for initialization
     void Start()
     {
+        nowLife = 1f;
+
         gControl = FindObjectOfType(typeof(_GameController)) as _GameController;
 
         player = GetComponent<Animator>();
@@ -54,6 +60,9 @@ public class playerScript : MonoBehaviour
 
     void FixedUpdate() // taxa de atualização de 0.02
     {
+        if (nowLife < maxLife)
+            nowLife += 0.25f;
+
         playerRb.velocity = new Vector2(h * speed, playerRb.velocity.y);
 
         ground = Physics2D.OverlapCircle(groundCheck.position, 0.02f, isGrounded); // verifica se esta tocando no chão

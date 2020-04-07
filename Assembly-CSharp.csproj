@@ -69,6 +69,7 @@
     <Compile Include="Assets\Script\Collected\Coins.cs" />
     <Compile Include="Assets\Script\gunsInfo.cs" />
     <Compile Include="Assets\Script\hitEnemy.cs" />
+    <Compile Include="Assets\Script\hud.cs" />
     <Compile Include="Assets\Script\playerScript.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />

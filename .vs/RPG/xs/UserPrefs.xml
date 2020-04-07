@@ -1,10 +1,8 @@
 ﻿<Properties StartupConfiguration="{0BE8E511-D506-A1D0-E67D-923A5ED26D39}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Script/Collected/Coins.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Script/hud.cs">
     <Files>
-      <File FileName="Assets/Script/_GameController.cs" Line="23" Column="48" />
-      <File FileName="Assets/Script/chest.cs" Line="1" Column="1" />
-      <File FileName="Assets/Script/hitEnemy.cs" Line="1" Column="1" />
-      <File FileName="Assets/Script/Collected/Coins.cs" Line="28" Column="27" />
+      <File FileName="Assets/Script/playerScript.cs" Line="46" Column="1" />
+      <File FileName="Assets/Script/hud.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -12,9 +10,7 @@
           <Node name="RPG" expanded="True">
             <Node name="Assets" expanded="True">
               <Node name="Script" expanded="True">
-                <Node name="Collected" expanded="True">
-                  <Node name="Coins.cs" selected="True" />
-                </Node>
+                <Node name="hud.cs" selected="True" />
               </Node>
             </Node>
           </Node>
@@ -24,7 +20,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="1dcb6667-2a0e-44c4-a083-6039a5c7f55b" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="761e03cd-50c6-4b93-b72a-1023fe2199be" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
